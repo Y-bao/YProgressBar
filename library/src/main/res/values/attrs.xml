@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="YProgressBar">
+        <attr name="back_color" format="reference|color" />
+        <attr name="front_color" format="reference|string" />
+        <attr name="back_width" format="reference|dimension" />
+        <attr name="front_width" format="reference|dimension" />
+
+
+        <attr name="start_angle" format="integer" />
+        <attr name="sweep_angle" format="integer" />
+        <attr name="diameter" format="reference|dimension" />
+
+        <attr name="current_value" format="float" />
+        <attr name="max_value" format="float" />
+        <attr name="min_value" format="float" />
+        <attr name="has_anim" format="reference|boolean" />
+    </declare-styleable>
+</resources>
